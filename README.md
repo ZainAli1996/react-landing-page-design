@@ -6,4 +6,4 @@ I have created my first-ever reactjs furniture website user interface design. Ta
 
 ## Website Link
 
-https://codify-react.web.app/
+https://single-page-website.web.app/
