@@ -30,33 +30,25 @@ A modern, responsive, and clean landing page UI built using **React.js** and **T
 ## 📁 Folder Structure
 
 ```bash
-app/
-├── layout.tsx                  # Main layout for the application
-├── page.tsx                    # Homepage
-├── about/page.tsx              # About page
-├── authors/[id]/page.tsx       # Dynamic author page (for individual authors)
-├── authors/[id]/loading.tsx    # Loading skeleton for dynamic author pages
-├── contact/page.tsx            # Contact page
-├── posts/[id]/page.tsx         # Individual blog post detail page
-├── privacy-policy/page.tsx     # Privacy Policy page
-├── not-found.ts                # Custom 404 error page
-├── globals.css                 # Global CSS for consistent styling across the app
-├── style.css                   # Custom CSS for specific design customizations
-├── fonts/                      # Custom font assets
-│   ├── WorkSans-Regular.ttf
-│   ├── WorkSans-Medium.ttf
-│   ├── WorkSans-SemiBold.ttf
-│   ├── WorkSans-Bold.ttf
-└── favicon.ico                 # Favicon for the website
-
-components/
-├── Header.tsx                  # Header component with navigation
-├── Footer.tsx                  # Footer component with site information
-├── FirstSection.tsx            # First section of the homepage
-├── SecondSection.tsx           # Second section of the homepage
-├── ThirdSection.tsx            # Third section of the homepage
-
-public/
-├── images/                     # Static image assets
-│   ├── logo-dark.png           # Dark logo version
-│   └── logo-light.png          # Light logo version
+├── public/
+│ ├── favicons/ # Site icons for various platforms
+│ ├── index.html # HTML template file
+│ ├── manifest.json # Web app manifest (PWA metadata)
+│ └── robots.txt # SEO crawler instructions
+│
+├── src/
+│ ├── images/ # Local image assets for UI
+│ ├── App.tsx # Main application component
+│ ├── App.css # App-level styling
+│ ├── App.test.tsx # Unit test for App
+│ ├── index.tsx # Entry point of the app
+│ ├── index.css # Global styles
+│ ├── react-app-env.d.ts # TypeScript environment declarations
+│ ├── reportWebVitals.ts # Web performance monitoring
+│ └── setupTests.ts # Jest test environment setup
+│
+├── .gitignore
+├── README.md
+├── package.json
+├── package-lock.json
+└── tsconfig.json # TypeScript compiler config
