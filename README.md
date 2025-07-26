@@ -1,8 +1,8 @@
-# 🚀 React Landing Page Design
+# ⚛️ React Landing Page Design
 
-A modern, responsive, and clean landing page UI built using **React.js** and **TypeScript** — originally designed for a furniture website, but easily customizable for any business or portfolio.
+A modern, responsive, and clean landing page UI built with **React.js** and **TypeScript**. Originally designed for a furniture website, this template is easily customizable for any business or portfolio.
 
-🔗 **Live Website**: [https://single-page-website.web.app/](https://single-page-website.web.app/)
+🔗 **Live Demo:** [https://single-page-website.web.app/](https://single-page-website.web.app/)
 
 ![Landing Page Screenshot](https://github.com/ZainAli1996/react-landing-page-design/assets/57337241/2fba2329-7513-4050-91e6-f80dfd43550d)
 
@@ -10,20 +10,20 @@ A modern, responsive, and clean landing page UI built using **React.js** and **T
 
 ## ✨ Features
 
-- Responsive across all devices
-- Built with **React** + **TypeScript**
-- Reusable and clean component structure
-- Global and component-specific CSS styling
-- Firebase deployment ready
+- Fully responsive design across all device sizes  
+- Built with **React** and **TypeScript** for type safety and scalability  
+- Clean, reusable component architecture  
+- Global and component-level CSS styling for easy customization  
+- Ready for Firebase deployment with minimal setup  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React.js
-- TypeScript
-- CSS
-- Firebase Hosting
+- React.js  
+- TypeScript  
+- CSS  
+- Firebase Hosting  
 
 ---
 
